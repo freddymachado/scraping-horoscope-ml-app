@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_horoscope.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_horoscope.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal7.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal7.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_zodiac2.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\zodiac2.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_scorpio.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\scorpio.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_john.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\john.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal10.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal10.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_elemento.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\elemento.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed4.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn_pressed4.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_principal.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_principal.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aries3.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aries3.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_dd.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\dd.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_descarga.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\descarga.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal11.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal11.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_horoscopo.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\horoscopo.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_sagitarius.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\sagitarius.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn1_pressed.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn1_pressed.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal8.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal8.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_horoscope_result.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_horoscope_result.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_try_full_access.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_try_full_access.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_palm_scan.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_palm_scan.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aries4.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aries4.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_bla.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\bla.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_rectangle_purple.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\rounded_rectangle_purple.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_rectangle_green.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\rounded_rectangle_green.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_objetivo.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\objetivo.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal2.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal2.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_compartir.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\compartir.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_mano.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\mano.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_zodiacsigns.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\zodiacsigns.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_cartera.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\cartera.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fondo10.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\fondo10.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed2.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn_pressed2.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_cara.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\cara.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_pisces.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\pisces.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal5.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal5.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_capricorn.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\capricorn.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_signososcuridad.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\signososcuridad.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_1.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_1.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_calendario.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\calendario.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_gemini.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\gemini.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aquarius.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aquarius.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_message_received.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_message_sent.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_virgo.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\virgo.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_camara1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\camara1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_face_scan.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_face_scan.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_escaneofacial.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\escaneofacial.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aries.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aries.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_cancer.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\cancer.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aries1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aries1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_libra.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\libra.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\raw_newalert.mp3.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\raw\\newalert.mp3"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_arrow.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\arrow.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_zodiac.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\zodiac.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal4.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal4.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed1.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn_pressed1.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_corazon.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\corazon.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_taurus.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\taurus.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_elemento2.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\elemento2.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fondo.jpg.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\fondo.jpg"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_signososcuridad1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\signososcuridad1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn_pressed.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_aries2.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\aries2.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal9.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal9.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_tuerca1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\tuerca1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_leo.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\leo.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fondo2.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\fondo2.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_corazonamor1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\corazonamor1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_image_labeling.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_image_labeling.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal3.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal3.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v21_ic_launcher_foreground.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi-v21\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_pressed3.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable\\btn_pressed3.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_full_access.xml.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\layout\\activity_full_access.xml"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_escaneo.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\escaneo.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_sagittarius.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\sagittarius.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_contornomano1.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\contornomano1.png"
+    },
+    {
+        "merged": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_animal6.png.flat",
+        "source": "D:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\src\\main\\res\\drawable-v21\\animal6.png"
+    }
+]

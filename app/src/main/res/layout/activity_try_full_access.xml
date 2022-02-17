@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".TryFullAccessActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/arrow"
+        android:onClick="goBack" />
+
+
+    <LinearLayout
+        android:id="@+id/lay12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/try_full_access_for_free"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/signososcuridad1"
+            android:contentDescription="TODO" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#112A5A"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/read_your_personal_horoscope"
+            android:textColor="#C8C5C5"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/predict_compability_with_friends"
+            android:textColor="#C8C5C5"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/your_personal_reading_every_day"
+            android:textColor="#C8C5C5"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button29"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="pressBtn"
+            android:text="Get your prediction!" />
+    </LinearLayout>
+</LinearLayout>

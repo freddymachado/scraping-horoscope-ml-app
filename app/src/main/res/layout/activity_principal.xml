@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".PrincipalActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tuerca1"
+        android:onClick="selectFunction" />
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/horoscopeapp"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/elemento2"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/horoscope"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/mano"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/escaneo"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="@string/palm_reading"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:text="FaceScan           (Know your Animal)"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

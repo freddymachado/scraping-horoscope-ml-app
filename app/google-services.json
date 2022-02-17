@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355269977783",
+    "firebase_url": "https://horoscope2-220f2.firebaseio.com",
+    "project_id": "horoscope2-220f2",
+    "storage_bucket": "horoscope2-220f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355269977783:android:fd3bb95b32ac7df4a94f32",
+        "android_client_info": {
+          "package_name": "com.example.horoscope2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355269977783-p9h2aqqdr97th11u512nqckc5v49p0gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.horoscope2",
+            "certificate_hash": "1ff78b9f787fe5fbe255e7953dea5c39921535e5"
+          }
+        },
+        {
+          "client_id": "355269977783-6kd7n1q0c82q7le08cnm5i9f14h7ub8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCSzv8e--EjbK43Im_DgaOq95Wf6FhV7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355269977783-6kd7n1q0c82q7le08cnm5i9f14h7ub8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

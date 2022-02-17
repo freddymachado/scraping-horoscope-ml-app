@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+    tools:context=".HoroscopeActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/arrow"
+        android:onClick="goBack" />
+
+
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/ready"
+            android:textSize="24sp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay6"
+        android:layout_width="203dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/corazon"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction2" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/objetivo"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay7"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:text="@string/health"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="45dp"
+            android:text="@string/career"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay8"
+        android:layout_width="205dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/corazonamor1"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction2" />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/cartera"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay9"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:text="@string/love"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="45dp"
+            android:text="@string/money"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay10"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/calendario"
+            android:contentDescription="@string/todo"
+            android:onClick="selectFunction2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dailyHoroscope"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1_pressed"
+            android:onClick="selectFunction2"
+            android:text="daily"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1_pressed"
+            android:onClick="selectFunction2"
+            android:text="weekly"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1_pressed"
+            android:onClick="selectFunction2"
+            android:text="monthly"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn1_pressed"
+            android:onClick="selectFunction2"
+            android:text="yearly"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

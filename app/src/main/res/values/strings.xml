@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Horoscope2</string>
+    <string name="icon">icon</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="sagitarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="chose">Choose your sign</string>
+    <string name="pisces">Pisces</string>
+    <string name="next">Continue</string>
+    <string name="facescan_know_your_animal">Facescan
+(Know your animal)</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="palm_reading">Palm reading</string>
+    <string name="horoscopeapp">HoroscopeApp</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="love">Love</string>
+    <string name="health">Health</string>
+    <string name="career">Career</string>
+    <string name="money">Money</string>
+    <string name="dailyHoroscope">Daily Horoscope</string>
+    <string name="ready">Ready to discover you fate?</string>
+    <string name="read_your_personal_horoscope">+ Read your personal horoscope</string>
+    <string name="predict_compability_with_friends">+ Predict Compability with friends</string>
+    <string name="your_personal_reading_every_day">+ Your personal reading every day</string>
+    <string name="try_full_access_for_free">Try Full Access For Free</string>
+    <string name="getStarted">GET STARTED</string>
+
+</resources>
