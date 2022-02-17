@@ -1,7 +1,7 @@
-#Tue Nov 10 21:10:02 VET 2020
-base.0=D\:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Thu Feb 17 14:37:11 VET 2022
+base.0=C\:\\Users\\Chucho\\Documents\\GitHub\\Horoscope2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\SDK\\Projects\\Proyectos\\Horoscope2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Users\\Chucho\\Documents\\GitHub\\Horoscope2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

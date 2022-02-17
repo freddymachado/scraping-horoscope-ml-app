@@ -68,7 +68,6 @@ public class ImageLabelingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_labeling);
-
         // Get the Intent that started this activity and extract the string
         final Intent intent = getIntent();
         outputFileUri = intent.getParcelableExtra("imageUri");
@@ -83,7 +82,6 @@ public class ImageLabelingActivity extends AppCompatActivity {
             smile="smile";
         }
 
-
         resultTv=findViewById(R.id.textView30);
         imageView=findViewById(R.id.imageView);
         choose=findViewById(R.id.choose);
@@ -92,8 +90,7 @@ public class ImageLabelingActivity extends AppCompatActivity {
 
         progressBar=(ProgressBar)findViewById(R.id.progressBar2);
 
-
-                FirebaseVisionImage image;
+        FirebaseVisionImage image;
         try {
             image = FirebaseVisionImage.fromFilePath(getApplicationContext(), outputFileUri);
             FirebaseVisionImageLabeler labeler = FirebaseVision.getInstance()
@@ -134,15 +131,10 @@ public class ImageLabelingActivity extends AppCompatActivity {
         }
 
         choose.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v){
                 detecting();
-
-
                 //progressBar=new ProgressBar(ImageLabelingActivity.this);
-
-
                 /**Intent i = new Intent();
                 i.setType("image/*");
                 i.setAction(Intent.ACTION_GET_CONTENT);
@@ -150,29 +142,22 @@ public class ImageLabelingActivity extends AppCompatActivity {
                  */
             }
         });
-
-
     }
 
     private void detecting() {
-
         if(HandDetected){
-
             switch (palmOrHead) {
-
                 case "Hand":
                     //Inicio thread
                     Thread hilo=new Thread(new Runnable() {
                         @Override
                         public void run() {
                             while(i<=100){
-
                                 h.post(new Runnable() {
                                     @Override
                                     public void run() {
                                         resultTv.setText(i+"%");
                                         progressBar.setProgress(i);
-
                                     }
                                 });
                                 try {
@@ -225,14 +210,10 @@ public class ImageLabelingActivity extends AppCompatActivity {
                     Log.d("index barajados","case works!");
 
                     showImage();
-
                     break;
-
-
                 default:
                     break;
             }
-
         }else{
             resultTv.setText("Nothing detected, please return\n");
         }
@@ -246,12 +227,10 @@ public class ImageLabelingActivity extends AppCompatActivity {
     }
 
     private void showImage(){
-
         //Declaro el SharedPreferences
         SharedPreferences userInfo = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         //Declaro el editor del SharedPreferences
         SharedPreferences.Editor  editor = userInfo.edit();
-
 
         //Primero que nada obtenemos la fecha actual para validar que no se haya pedido un horoscopo el dia de hoy
         Date d = new Date();

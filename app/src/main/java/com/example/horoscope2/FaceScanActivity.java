@@ -49,7 +49,6 @@ import java.util.List;
 import static com.example.horoscope2.PrincipalActivity.capt;
 
 public class FaceScanActivity extends AppCompatActivity {
-    //TODO: if face is detected, conserve the pic.
 
     public static final String CAMERA_FRONT = "1";
     public static final String CAMERA_BACK = "0";

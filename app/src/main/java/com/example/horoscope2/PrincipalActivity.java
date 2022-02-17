@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,11 +14,13 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Date;
 import java.util.Map;
 
 import static com.example.horoscope2.MainActivity.EXTRA_MESSAGE;
 
 public class PrincipalActivity extends AppCompatActivity {
+    //TODO: Change anim between activities
 
     ImageButton horoscope, faceScan, palmReading;
 
@@ -28,8 +31,6 @@ public class PrincipalActivity extends AppCompatActivity {
     public static final String capt="";
 
     String sign;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +65,6 @@ public class PrincipalActivity extends AppCompatActivity {
     }
 
     void setLayout2 () {
-
         tHoroscope = (TextView) findViewById(R.id.textView15);
         tPalmReading = (TextView) findViewById(R.id.textView16);
         tFaceScan = (TextView) findViewById(R.id.textView17);
@@ -74,20 +74,18 @@ public class PrincipalActivity extends AppCompatActivity {
         faceScan= (ImageButton) findViewById(R.id.imageButton14);
         palmReading = (ImageButton) findViewById(R.id.imageButton16);
 
-
         goBack = (Button) findViewById(R.id.button2);
 
         horoscope.setImageResource(R.drawable.btn_pressed2);
         faceScan.setImageResource(R.drawable.btn_pressed2);
         palmReading.setImageResource(R.drawable.btn_pressed2);
-
-
     }
 
     public void selectFunction (View view){
+        //Declaro el SharedPreferences
+        SharedPreferences userInfo = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
         switch (view.getId()) {
-
             case R.id.imageButton13:
                 /**Toast toast1 = Toast.makeText(getApplicationContext(),
                         "Horoscope", Toast.LENGTH_LONG);
@@ -100,20 +98,23 @@ public class PrincipalActivity extends AppCompatActivity {
                 break;
 
             case R.id.imageButton14:
-                /**Toast toast3 = Toast.makeText(getApplicationContext(),
-                        "facescan", Toast.LENGTH_LONG);
-                toast3.show();
-                 Creo un nuevo Intent*/
-                Intent intent3 = new Intent(this, FaceScanActivity.class);
-                intent3.putExtra(capt, "Face Capture");
-                startActivity(intent3);
+                //Primero que nada obtenemos la fecha actual para validar que no se haya pedido un horoscopo el dia de hoy
+                Date d = new Date();
+                //s contiene la fecha actual en el formato descrito
+                CharSequence s = DateFormat.format("MMM d yyyy", d.getTime());
+                //Valido si no ha pasado un dia desde la ultima prediccion
+                if((userInfo.getString("todayDate2"," ")).equals(s)){
+                    //TODO: Se muestran las imagenes obtenidas anteriormente
+                }
+                //en caso contrario
+                else{
+                    Intent intent3 = new Intent(this, FaceScanActivity.class);
+                    intent3.putExtra(capt, "Face Capture");
+                    startActivity(intent3);
+                }
                 break;
 
             case R.id.imageButton16:
-                //Declaro el SharedPreferences
-                SharedPreferences userInfo = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-                //Declaro el editor del SharedPreferences
-                SharedPreferences.Editor  editor = userInfo.edit();
                 boolean palmPhotoReceived =  userInfo.getBoolean("palmPhotoReceived", false);
 
                 /** Algoritmo para chequear en el log los valores de cada key
@@ -122,7 +123,6 @@ public class PrincipalActivity extends AppCompatActivity {
                  *        Log.d("map values", entry.getKey() + ": " + entry.getValue().toString());
                  * }
                  */
-
 
                 if(!palmPhotoReceived){
                     //Creo un nuevo Intent
