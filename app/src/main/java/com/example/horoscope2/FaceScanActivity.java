@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 import android.util.Size;
 import android.util.SparseIntArray;
 import android.view.Surface;
@@ -48,6 +49,7 @@ import java.util.List;
 import static com.example.horoscope2.PrincipalActivity.capt;
 
 public class FaceScanActivity extends AppCompatActivity {
+    //TODO: if face is detected, conserve the pic.
 
     public static final String CAMERA_FRONT = "1";
     public static final String CAMERA_BACK = "0";
@@ -64,10 +66,10 @@ public class FaceScanActivity extends AppCompatActivity {
     //Check state orientation of output image
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     static{
-        ORIENTATIONS.append(Surface.ROTATION_0,180);
-        ORIENTATIONS.append(Surface.ROTATION_90,270);
-        ORIENTATIONS.append(Surface.ROTATION_180,0);
-        ORIENTATIONS.append(Surface.ROTATION_270,90);
+        ORIENTATIONS.append(Surface.ROTATION_0,270);
+        ORIENTATIONS.append(Surface.ROTATION_90,0);
+        ORIENTATIONS.append(Surface.ROTATION_180,90);
+        ORIENTATIONS.append(Surface.ROTATION_270,180);
     }
 
     private CameraDevice cameraDevice;
@@ -99,6 +101,7 @@ public class FaceScanActivity extends AppCompatActivity {
 
         @Override
         public void onError(@NonNull CameraDevice camera, int error) {
+            Log.d("err", String.valueOf(error));
             cameraDevice.close();
             cameraDevice=null;
         }
