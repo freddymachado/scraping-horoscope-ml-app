@@ -105,61 +105,73 @@ public class HoroscopeResultActivity extends AppCompatActivity {
       case "Aries":
         signV.setImageResource(R.drawable.aries);
         signNumber="1";
+        topic="aries"
         break;
 
       case "Gemini":
         signV.setImageResource(R.drawable.gemini);
         signNumber="3";
+        topic="gemini"
         break;
 
       case "Taurus":
         signV.setImageResource(R.drawable.taurus);
         signNumber="2";
+        topic="taurus"
         break;
 
       case "Virgo":
         signV.setImageResource(R.drawable.virgo);
         signNumber="6";
+        topic="virgo"
         break;
 
       case "Leo":
         signV.setImageResource(R.drawable.leo);
         signNumber="5";
+        topic="leo"
         break;
 
       case "Cancer":
         signV.setImageResource(R.drawable.cancer);
         signNumber="4";
+        topic="cancer"
         break;
 
       case "Sagittarius":
         signV.setImageResource(R.drawable.sagitarius);
         signNumber="9";
+        topic="sagitarius"
         break;
 
       case "Scorpio":
         signV.setImageResource(R.drawable.scorpio);
         signNumber="8";
+        topic="scorpio"
         break;
 
       case "Libra":
         signV.setImageResource(R.drawable.libra);
         signNumber="7";
+        topic="libra"
         break;
 
       case "Pisces":
         signV.setImageResource(R.drawable.pisces);
         signNumber="12";
+        topic="pisces"
         break;
 
       case "Aquarius":
         signV.setImageResource(R.drawable.aquarius);
         signNumber="11";
+        topic="aquarius"
         break;
 
       case "Capricorn":
         signV.setImageResource(R.drawable.capricorn);
         signNumber="10";
+        topic="capricorn"
         break;
 
 
@@ -244,14 +256,17 @@ public class HoroscopeResultActivity extends AppCompatActivity {
 
       case "Weekly Horoscope":
         periodT.setText(firstDay+" - "+lastDay+" "+month);
+        period="weekly";
         break;
 
       case "Monthly Horoscope":
         periodT.setText("01 "+month+" - "+lastDayM+" "+month);
+        period="monthly";
         break;
 
       case "Yearly Horoscope":
         periodT.setText(year);
+        period="yearly";
         break;
 
       default:
@@ -272,7 +287,6 @@ public class HoroscopeResultActivity extends AppCompatActivity {
       public void run() {
         final StringBuilder builder = new StringBuilder();
         try {
-          //TODO: Asign values for topic and period on switch
           Document document = Jsoup.connect("https://www.horoscope.com/us/horoscopes/"+topic+"/horoscope-"+topic+"-"+period+".aspx?sign="+signNumber)
                   .timeout(0).get();
 
@@ -282,9 +296,9 @@ public class HoroscopeResultActivity extends AppCompatActivity {
           Elements entradas = document.select("div.main-horoscope");
           builder.append(title).append("\n");
 
-          //TODO: Divide texto.text() by "- " and "Get"
+          //TODO: probar Divide texto.text() by "- " and "Get"
           for(Element texto: entradas){
-            builder.append("\n\n").append("").append(texto.text())
+            builder.append("\n\n").append("").append(texto.text().split("- ")[1].split("Get")[0])
                     .append("\n");
           }
           /** Para extraer los links
