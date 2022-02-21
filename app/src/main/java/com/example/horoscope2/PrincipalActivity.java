@@ -105,6 +105,7 @@ public class PrincipalActivity extends AppCompatActivity {
                 //Valido si no ha pasado un dia desde la ultima prediccion
                 if((userInfo.getString("todayDate2"," ")).equals(s)){
                     //TODO: Se muestran las imagenes obtenidas anteriormente
+                    Toast.makeText(this, "regresa mañana para más predicciones", Toast.LENGTH_SHORT).show();
                 }
                 //en caso contrario
                 else{

@@ -236,18 +236,6 @@
             android:text="monthly"
             android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:textSize="10sp" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/btn1_pressed"
-            android:onClick="selectFunction2"
-            android:text="yearly"
-            android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:textSize="10sp" />
     </LinearLayout>
 
 </LinearLayout>
