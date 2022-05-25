@@ -38,16 +38,6 @@ public class HoroscopeResultActivity extends AppCompatActivity {
 
   ImageView signV;
 
-  CharSequence imageLabels;
-  String labels1= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id eu nisl nunc mi ipsum. Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Nibh mauris cursus mattis molestie a iaculis at. Tristique nulla aliquet enim tortor at auctor urna nunc id. In iaculis nunc sed augue lacus viverra vitae. Quis auctor elit sed vulputate mi sit amet mauris. Consectetur adipiscing elit ut aliquam. Quis eleifend quam adipiscing vitae. Rhoncus dolor purus non enim praesent elementum facilisis leo. Cras sed felis eget velit aliquet sagittis. Aliquam etiam erat velit scelerisque in.\n" +
-          "\n" +
-          "Feugiat sed lectus vestibulum mattis ullamcorper velit. Accumsan tortor posuere ac ut consequat semper viverra. Scelerisque eu ultrices vitae auctor eu augue ut. In metus vulputate eu scelerisque felis imperdiet. Non consectetur a erat nam. Turpis massa sed elementum tempus egestas sed sed risus. Eleifend quam adipiscing vitae proin sagittis. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Molestie at elementum eu facilisis sed odio. Nibh tortor id aliquet lectus. Et netus et malesuada fames ac turpis egestas.\n" +
-          "\n" +
-          "Orci ac auctor augue mauris augue neque gravida. Sed tempus urna et pharetra pharetra massa. Consectetur lorem donec massa sapien faucibus. Id interdum velit laoreet id donec ultrices tincidunt arcu. Cursus euismod quis viverra nibh cras. Quam pellentesque nec nam aliquam sem et. Nunc vel risus commodo viverra. Nibh mauris cursus mattis molestie a iaculis at erat. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. At imperdiet dui accumsan sit amet nulla facilisi morbi. Erat imperdiet sed euismod nisi porta lorem mollis aliquam.\n" +
-          "\n" +
-          "Quis commodo odio aenean sed. Risus pretium quam vulputate dignissim suspendisse in. Metus dictum at tempor commodo. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Dui vivamus arcu felis bibendum ut. Tincidunt ornare massa eget egestas purus viverra accumsan in. Mollis aliquam ut porttitor leo a. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Facilisis mauris sit amet massa vitae tortor condimentum. Turpis tincidunt id aliquet risus feugiat in ante metus. Neque convallis a cras semper auctor neque vitae tempus. Risus quis varius quam quisque id diam vel quam. Odio morbi quis commodo odio aenean sed. Faucibus in ornare quam viverra orci. Dictum at tempor commodo ullamcorper. Lorem ipsum dolor sit amet consectetur.\n" +
-          "\n" +
-          "Rhoncus dolor purus non enim praesent elementum. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Donec adipiscing tristique risus nec. Consequat ac felis donec et odio pellentesque diam. Urna duis convallis convallis tellus. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Proin libero nunc consequat interdum varius. Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Arcu bibendum at varius vel pharetra. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor.";
   String period = "daily-today", topic = "general";
   String TAG;
   String[] date;
@@ -176,7 +166,7 @@ public class HoroscopeResultActivity extends AppCompatActivity {
       case "Health Horoscope":
         titleT.setText(message);
         intervalT.setText(interval);
-        topic="health";
+        topic="wellness";
         break;
 
       case "Career Horoscope":
