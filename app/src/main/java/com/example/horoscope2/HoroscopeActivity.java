@@ -18,7 +18,7 @@ public class HoroscopeActivity extends AppCompatActivity {
 
     TextView thealth, tcareer, tlove, tmoney, tdaily, tready;
 
-    Button dbtn, wbtn, mbtn, ybtn;
+    Button dbtn, wbtn, mbtn;
 
     String interval;
 
@@ -60,7 +60,7 @@ public class HoroscopeActivity extends AppCompatActivity {
         //dbtn.setPressed(true);
         wbtn=(Button)findViewById(R.id.button4);
         mbtn=(Button)findViewById(R.id.button5);
-        ybtn=(Button)findViewById(R.id.button6);
+        //ybtn=(Button)findViewById(R.id.button6);
 
         health.setImageResource(R.drawable.btn_pressed2);
         career.setImageResource(R.drawable.btn_pressed2);
@@ -140,7 +140,6 @@ public class HoroscopeActivity extends AppCompatActivity {
                 tdaily.setText("Daily Horoscope");
                 wbtn.setPressed(false);
                 mbtn.setPressed(false);
-                ybtn.setPressed(false);
                 break;
 
                 case R.id.button4:
@@ -148,7 +147,6 @@ public class HoroscopeActivity extends AppCompatActivity {
                     tdaily.setText("Weekly Horoscope");
                     dbtn.setPressed(false);
                     mbtn.setPressed(false);
-                    ybtn.setPressed(false);
                 break;
 
             case R.id.button5:
@@ -156,17 +154,6 @@ public class HoroscopeActivity extends AppCompatActivity {
                 tdaily.setText("Monthly Horoscope");
                 dbtn.setPressed(false);
                 wbtn.setPressed(false);
-                ybtn.setPressed(false);
-
-                break;
-
-            case R.id.button6:
-                ybtn.setPressed(true);
-                tdaily.setText("Yearly Horoscope");
-                dbtn.setPressed(false);
-                wbtn.setPressed(false);
-                mbtn.setPressed(false);
-
 
                 break;
 

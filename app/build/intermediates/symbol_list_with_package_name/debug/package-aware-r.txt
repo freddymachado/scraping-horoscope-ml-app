@@ -872,7 +872,6 @@ id button29
 id button3
 id button4
 id button5
-id button6
 id buttonPanel
 id button_chatbox_send
 id center_vertical
